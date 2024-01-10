@@ -1,7 +1,7 @@
 name: Conditional Workflow Execution 
 on: [push] 
 jobs: 
-  production-deploy: 
+  production-deploy:
     if: github.ref_name == 'master' 
     runs-on: ubuntu-latest 
     steps: 
