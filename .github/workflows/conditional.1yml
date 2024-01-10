@@ -1,4 +1,4 @@
-name: Conditional Workflow Execution 
+name: Conditional Workflow Execution
 on: [push] 
 jobs: 
   production-deploy:
