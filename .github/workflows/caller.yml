@@ -1,10 +1,8 @@
-name: Reusable Workflow Caller 
+name: Reusable Workflow Caller
 
-on: 
-  push: 
-
-jobs: 
-
-  Reusable-caller-job: 
-
-    uses: ./.github/workflows/maven-cache1.yml 
+on:
+  push:
+  
+jobs:
+  Reusable-caller-job:
+    uses: ./.github/workflows/maven-cache1.yml
